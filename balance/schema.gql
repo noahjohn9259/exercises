@@ -26,7 +26,7 @@ type Query {
 
 type Mutation {
   updateBalance(request: ID!, account: ID!, amount: Float!): Float!
-  createReserveBalance(request: ID!, account: ID!, context: String!, amount: Float!): ReservedBalance!
+  createReservedBalance(request: ID!, account: ID!, context: String!, amount: Float!): ReservedBalance!
   updateReservedBalance(request: ID!, reservedBalance: ID!, amount: Float!): ReservedBalance!;
   releaseReservedBalance(request: ID!, reservedBalance: ID!): boolean;
   createVirtualBalance(request: ID!, account: ID!, context: String!, amount: Float!): VirtualBalance!;
