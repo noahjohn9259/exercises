@@ -1,8 +1,8 @@
 # Portfolio
-Your task is to write SQL definitions based on the instructions given below. The SQL definitions must be compatible with the latest versions of `PostgreSQL` or `MySQL`. Your answers must be written into `index.sql`. Your answers will be assessed based on the following criteria:
+Your task is to write SQL definitions based on the instructions given below. The SQL definitions must be compatible with the latest stable versions of `PostgreSQL` or `MySQL`. Your answers must be written into the `index.sql` file. Your answers will be assessed based on the following criteria:
 1. Accuracy
 2. Readability
-3. Code Performance
+3. Code performance
 
 ## Instructions
 1. Create the `reits` table. The `reits` table must have the following attributes:
